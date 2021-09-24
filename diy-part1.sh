@@ -21,16 +21,16 @@ pushd po2lmo
 make && sudo make install
 popd
 
-#git clone https://github.com/kenzok8/openwrt-packages package/kenzok8
-#git clone https://github.com/kenzok8/small.git package/small
-#git clone https://github.com/BoringCat/minieap-openwrt.git package/minieap
-#git clone https://github.com/BoringCat/luci-app-minieap.git package/luci-app-minieap
-#git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
-#git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
+git clone https://github.com/kenzok8/openwrt-packages package/kenzok8
+git clone https://github.com/kenzok8/small.git package/small
+git clone https://github.com/BoringCat/minieap-openwrt.git package/minieap
+git clone https://github.com/BoringCat/luci-app-minieap.git package/luci-app-minieap
+git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
+git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 
-echo 'src-git kenzok8 https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-echo 'src-git minieap https://github.com/BoringCat/minieap-openwrt' >>feeds.conf.default
-echo 'src-git luci-app-minieap https://github.com/BoringCat/luci-app-minieap' >>feeds.conf.default
-echo 'src-git luci-app-mentohust https://github.com/BoringCat/luci-app-mentohust' >>feeds.conf.default
-echo 'src-git mentohust https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk' >>feeds.conf.default
+#echo 'src-git kenzok8 https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+#echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+#echo 'src-git minieap https://github.com/BoringCat/minieap-openwrt' >>feeds.conf.default
+#echo 'src-git luci-app-minieap https://github.com/BoringCat/luci-app-minieap' >>feeds.conf.default
+#echo 'src-git luci-app-mentohust https://github.com/BoringCat/luci-app-mentohust' >>feeds.conf.default
+#echo 'src-git mentohust https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk' >>feeds.conf.default
