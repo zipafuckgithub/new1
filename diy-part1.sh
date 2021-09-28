@@ -29,4 +29,4 @@
 #git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
 #git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 
-echo ' src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
+#echo ' src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
