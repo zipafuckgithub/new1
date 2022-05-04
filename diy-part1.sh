@@ -29,4 +29,9 @@
 #git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
 #git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 
-git clone https://github.com/liuran001/openwrt-packages package/openwrt-packages
+#git clone https://github.com/liuran001/openwrt-packages package/openwrt-packages
+
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+git clone https://github.com/coolsnowwolf/lede lean/lede
+cp lean/lede/package/lean package/lean
